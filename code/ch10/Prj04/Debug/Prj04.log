@@ -1,0 +1,2 @@
+﻿  twodarrayfunction.c
+C:\Users\dldud\source\repos\ch10\Prj04\twodarrayfunction.c(16,12): warning C4013: 'prnitarray'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
