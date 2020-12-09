@@ -5,7 +5,7 @@ int main(void)
 {
 	int count = 1;
 
-loop :
+loop:
 	printf("%3d", count);
 	if (++count <= 10)
 		goto loop;

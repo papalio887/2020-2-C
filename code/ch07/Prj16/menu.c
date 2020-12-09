@@ -8,6 +8,7 @@ int main(void)
 
 	do {
 		printf("\t [1] 한식 \n");
+
 		printf("\t [2] 양식 \n");
 		printf("\t [3] 분식 \n");
 		printf("\t [4] 기타 \n");

@@ -2,12 +2,7 @@
 
 int main(void)
 {
-	int abc[4][3]{
-		{1,2,3},
-		{5,6,7},
-		{9,10,11},
-		{13,14,15}
-	};
+	int abc[4][3]={{1,2,3},{5,6,7},{9,10,11},{13,14,15}};
 
 	int rowsize = sizeof(abc) / sizeof(abc[0]);
 	int colsize = sizeof(abc[0]) / sizeof(abc[0][0]);

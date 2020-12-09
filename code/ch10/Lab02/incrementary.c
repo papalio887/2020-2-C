@@ -11,7 +11,7 @@ int main(void)
 
 	printary(data, aryLength);
 	incrementary(data, 3, aryLength);
-	prnitf("배열 원소에 각각 3을 더한 결과 : \n");
+	printf("배열 원소에 각각 3을 더한 결과 : \n");
 	printary(data, aryLength);
 	return 0;
 

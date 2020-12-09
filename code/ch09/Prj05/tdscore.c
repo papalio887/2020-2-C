@@ -23,9 +23,9 @@ int main(void)
 		puts("");
 	}
 	printf("-------------------------\n");
-	prnitf("평균: %7.2f %7.2\n", (double)midsum / ROWSIZE, (double)finalsum / ROWSIZE);
+	printf("평균: %7.2f %7.2f\n", (double)midsum / ROWSIZE, (double)finalsum / ROWSIZE);
 	printf("\n성적의 합은 %d이고 ", sum);
-	printf("평균은 %.2f이다.\n", (double)sum / (ROWSIZE * COLSIZE));
+	printf("평균은 %.2f이다.\n", (double)sum/(ROWSIZE*COLSIZE));
 
 	return 0;
 

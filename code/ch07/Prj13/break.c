@@ -8,7 +8,7 @@ int main(void)
 	while (1)
 	{
 		printf("정수[음수, 0(종료), 양수]를 입력 후 [Enter] : ");
-		scanf("%d", &input);
+		scanf_s("%d", &input);
 		printf("입력한 정수 %d\n", input);
 		if (input == 0)
 			break;

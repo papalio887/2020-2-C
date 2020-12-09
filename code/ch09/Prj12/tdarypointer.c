@@ -6,8 +6,8 @@ int main(void)
 	int* p = a;
 
 	printf("%2d, %2d\n", *(p + 1), *(p + 4));
-	prnitf("%2d, %2d\n", p[1], [4]);
-	prnitf("sizeof(a) = %d, sizeof(p)=%d\n", sizeof(a), sizeof(p));
+	printf("%2d, %2d\n", p[1],p[4]);
+	printf("sizeof(a) = %d, sizeof(p)=%d\n", sizeof(a), sizeof(p));
 	printf("%2d\n", *++p);
 
 	int ary[][4] = { 5,7,6,2,7,8,1,3 };

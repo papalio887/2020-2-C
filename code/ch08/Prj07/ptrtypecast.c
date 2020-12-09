@@ -7,13 +7,13 @@ int main(void)
 	char* pc = (char*)&value;
 
 	printf(" 변수명   저장값    주소값   \n");
-	printf("------------------------------------");
-	printf(" value  %0#x     %u\n", value, pi);
+	printf("------------------------------------\n");
+	printf("       value  %0#x     %u\n", value, pi);
 
 	for (int i = 0; i <= 3; i++)
 	{
 		char ch = *(pc + i);
-		printf("*(pc+%d)  %0#6x %2c  %2c", i, ch, ch, pc + i);
+		printf("*(pc+%d)  %0#6x %2c  %2c\n", i, ch, ch, (pc + i));
 	}
 
 	return 0;

@@ -4,7 +4,7 @@ int main(void)
 {
 
 	printf("i     i力蚌    i技力蚌    力蚌辟(sqrt)\n");
-	prnitf("-------------------------------------------------\n");
+	printf("-------------------------------------------------\n");
 	for (int i = 3; i < 7; i++)
 		printf("%3d %7.lf %9.lf %9.lf\n", i, pow(i, 2), pow(i, 3), sqrt(i));
 	printf("\n");

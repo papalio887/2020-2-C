@@ -13,7 +13,7 @@ int main(void)
 
 	int colsize = sizeof(x[0]) / sizeof(x[0][0]);
 	printf("2차원 배열의 자료값은 다음과 같습니다.\n");
-	prnitarray(x, rowsize, colsize);
+	printarray(x, rowsize, colsize);
 	printf("2차원 배열 원소합은 %.3lf 입니다.\n", sum(x, rowsize, colsize));
 
 	return 0;

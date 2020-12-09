@@ -1,0 +1,11 @@
+﻿  calcptr.c
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(10,36): warning C4311: '형식 캐스트': 'char *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(10,47): warning C4311: '형식 캐스트': 'char *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(10,62): warning C4311: '형식 캐스트': 'char *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(11,36): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(11,47): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(11,62): warning C4311: '형식 캐스트': 'int *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(12,36): warning C4311: '형식 캐스트': 'double *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(12,47): warning C4311: '형식 캐스트': 'double *'에서 'int'(으)로 포인터가 잘립니다.
+C:\Users\dldud\source\repos\ch08\Prj05\calcptr.c(12,62): warning C4311: '형식 캐스트': 'double *'에서 'int'(으)로 포인터가 잘립니다.
+  Prj05.vcxproj -> C:\Users\dldud\source\repos\ch08\x64\Debug\Prj05.exe

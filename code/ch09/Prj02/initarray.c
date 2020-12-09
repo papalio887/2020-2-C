@@ -9,7 +9,7 @@ int main(void)
 	for (int i = 0; i < SIZE; i++)
 	{
 		sum += score[i];
-		printf("score[%d] = %.2f\n", score[i]);
+		printf("score[%d] = %.2f\n",i, score[i]);
 	}
 	printf("성적의 합은 %.2f이고 평균은 %.2f이다.\n", sum, sum / SIZE);
 

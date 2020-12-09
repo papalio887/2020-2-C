@@ -13,7 +13,7 @@ int main(void)
 	{
 		for (int j = 0; j < COL; j++, cnt++)
 		{
-			prnitf("%d %d %d, ", *(*td + cnt), *(td[i] + j), *(*(td + i) + j));
+			printf("%d %d %d, ", *(*td + cnt), *(td[i] + j), *(*(td + i) + j));
 		}
 		printf("\n");
 	}

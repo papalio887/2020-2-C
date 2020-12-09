@@ -6,10 +6,11 @@ int main(void)
 {
 	int n = 1;
 
-	while (n <= MAX)
+	while (n <= MAX) 
 		printf("%d\n", n++);
 
-	printf("\n 제어변수 count => %n", n);
+	printf("제어변수 count => %d\n", n);
+	
 	
 	return 0;
 

@@ -2,7 +2,7 @@
 
 int add2(int a, int b);
 int findMax2(int, int);
-int printMin(int, int);
+void printMin(int a, int b);
 
 
 int main(void)
@@ -10,12 +10,13 @@ int main(void)
 	int a = 3, b = 5;
 
 	int max = findMax2(a, b);
-	printf("최대:%d\n", max);
+	printf("최대: %d\n", max);
 	printf("합: %d\n", add2(a, b));
 
-	prnitMin(2, 5);
+	printMin(2, 5);
 
 	return 0;
+}
 
 	int add2(int a, int b)
 	{
@@ -44,4 +45,4 @@ int main(void)
 		return;
 	}
 
-}
+
